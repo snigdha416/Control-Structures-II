@@ -1,0 +1,6 @@
+Write a program to generate the following series --- 0.5,1.5,4.5,13.5,...
+
+n=int(input())
+for i in range(0,n):
+    print((3**i)/2 )
+     
