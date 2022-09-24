@@ -1,0 +1,8 @@
+Write a program to generate the following series --- 121,225,361,... 
+
+n=int(input())
+a=7
+for i in range(0,n+1):
+    a=(a+4)
+    print(a**2)
+    
